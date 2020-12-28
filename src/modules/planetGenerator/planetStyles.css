@@ -1,0 +1,157 @@
+@media (min-width: 0px) {
+    .cntPlanetGame .titleGame{
+        text-align: center;
+        margin: 0.5em 0em 0.5em 0em;
+    }
+    .cntPlanetGame .cntInputOrders{
+        display: flex;
+        padding: 0.5em 1em 0em 1em;
+    }
+    
+    .cntPlanetGame .cntInputOrders button{
+        text-transform: uppercase;
+        cursor: pointer;
+    }
+    
+    .cntPlanetGame .cntInstructions{
+        text-align: center;
+        margin: 0.5em 0em 0.5em 0em;
+    }
+
+    .cntPlanetGame .cntControls{
+        padding: 0em 1em 0em 1em;
+    }
+    
+    .cntPlanetGame .cntInputOrders input {
+        flex: 1;
+        border-radius: 5px;
+        padding: 0.5em;
+        outline: none;
+        margin-right: 0.2em;
+        height:2em;
+        text-align: center;
+    }
+    
+    .cntPlanetGame .PanelsVehicle{    
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    .cntPlanetGame .PanelsVehicle .cntPanelInfo,.cntDirectionButtons{
+        padding: 0.5em;
+        border: 1px solid;
+        border-radius: 5px;
+        margin: 0.5em;
+    }
+    
+    .cntPlanetGame .PanelsVehicle .cntDirectionButtons{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    
+    .cntPlanetGame .PanelsVehicle .cntPanelInfo .itemInfo{    
+        display: flex;
+        justify-content: flex-start;
+        margin: 0.2em 0em 0.2em 0em;
+    }
+    
+    .cntPlanetGame .PanelsVehicle .cntPanelInfo .itemInfo .title{
+        margin: 0em 0.5em 0em 0em;
+    }    
+    
+    .cntPlanetGame .PanelsVehicle .cntPanelInfo .cntLegend .cntLegendItem{
+        display: flex;    
+        align-items: center;
+        margin: 0.5em 0em 0em 0em;
+    }
+    
+    .cntPlanetGame .PanelsVehicle .cntPanelInfo .cntLegend .icoRover{
+        width: 0.8em;
+        height: 0.8em;
+        margin: 0em 0.5em 0em 0.5em;
+        background-color: black;
+    }
+        
+    
+    .cntPlanetGame .PanelsVehicle .cntPanelInfo .cntLegend .icoObstacle{
+        width: 0.8em;
+        height: 0.8em;
+        margin: 0em 0.5em 0em 0.5em;
+        background-color: red;
+    }
+
+    .cntPlanetGame .PanelsVehicle .cntPanelInfo .cntLegend .icoCasella{
+        width: 0.5em;
+        height: 0.5em;
+        margin: 0em 0.5em 0em 0.5em;
+        border: 2px solid green;
+        background-color: brown;
+    }
+    
+    .cntPlanetGame .cntDirectionButtons .cntButton{
+        text-align: center;
+    }
+    
+    .cntPlanetGame .cntDirectionButtons .W{
+        margin: 0.5em 0em 0.5em 0em;
+        position: absolute;
+    }
+    
+    .cntPlanetGame .cntDirectionButtons .W button{
+        text-align: center;
+    }
+    
+    .cntPlanetGame .cntDirectionButtons .E{
+        text-align: right;
+        margin: 0.5em 0em 0.5em 0em;
+    }
+    
+    .cntPlanetGame .cntDirectionButtons .titleDirectionButtons{
+        text-transform: uppercase;
+    }
+    
+    .cntPlanetGame .cntDirectionButtons .cntButton button{
+        min-width: 4em;    
+        min-width: 4em;
+        border-radius: 10px;
+        border: none;
+        cursor: pointer;
+        text-align: center;
+    }
+    
+    .cntPlanetGame .cntDirectionButtons .cntButton .active{
+        background: black;
+        color: white;
+    }
+    
+    .cntPlanetGame .cntDirectionButtons .cntButton button:focus{
+        border: none;
+        outline: none;
+    }
+    
+    .cntPlanetGame .cntButonsGame{
+        display: flex;
+        margin: 1em 0em 0em 0em;
+        justify-content: space-around;
+    }
+    
+    .cntPlanetGame .cntButonsGame button{
+        width:50%;
+        text-transform: uppercase;
+        cursor: pointer;
+        margin: 0em 0em 1em 0em;
+    }
+}
+@media (min-width: 1024px) {
+    .cntPlanetGame {   
+        display: flex;                
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        min-height: 80vh;        
+    }
+    .cntPlanetGame .cntGame{
+        margin: 0em 5em 0em 0em;
+    }
+}

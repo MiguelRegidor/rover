@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/rover/static/css/main.ff992d27.chunk.css",
+    "main.js": "/rover/static/js/main.dd42424e.chunk.js",
+    "main.js.map": "/rover/static/js/main.dd42424e.chunk.js.map",
+    "runtime-main.js": "/rover/static/js/runtime-main.09bd2613.js",
+    "runtime-main.js.map": "/rover/static/js/runtime-main.09bd2613.js.map",
+    "static/js/2.73bc2986.chunk.js": "/rover/static/js/2.73bc2986.chunk.js",
+    "static/js/2.73bc2986.chunk.js.map": "/rover/static/js/2.73bc2986.chunk.js.map",
+    "index.html": "/rover/index.html",
+    "static/css/main.ff992d27.chunk.css.map": "/rover/static/css/main.ff992d27.chunk.css.map",
+    "static/js/2.73bc2986.chunk.js.LICENSE.txt": "/rover/static/js/2.73bc2986.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.09bd2613.js",
+    "static/js/2.73bc2986.chunk.js",
+    "static/css/main.ff992d27.chunk.css",
+    "static/js/main.dd42424e.chunk.js"
+  ]
+}
