@@ -2,7 +2,7 @@
 
 Projecte de pràctiques - simulació moviments vehicle rover
 
-## Run `npm install` to install modules tu develop
+## Run `npm install` to install modules
 
 ## Available Scripts
 
